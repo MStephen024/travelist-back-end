@@ -1,15 +1,39 @@
 country,city,attraction,cuisine,description
-Japan,Tokyo,nothing,ramen?,has stuff
-Japan,Kyoto,nothing,ramen?,has stuff
-Italy,Rome,Fushimi Inari-taisha Shrine,
-Italy,Venice
-Italy,Florence
-Spain,Madrid
-Spain,Barcelona
-Greece
-Dominican Republic
-Columbia
-Brazil
-Singapore
-South Korea
-France
+Japan,Tokyo,The Sensō-ji Temple,Nigiri-zushi,
+Japan,Kyoto,Fushimi Inari-taisha Shrine,Shojin Ryori,
+Italy,Rome,Colosseum,
+Italy,Venice,St. Mark's Basilica,
+Italy,Florence,Cathedral of Santa Maria del Fiore and Piazza Duomo,
+Spain,Madrid,Prado Museum,
+Spain,Barcelona,La Sagrada Familia,
+Greece,Athens,Acropolis of Athens,
+Dominican Republic,Punta Cana,Bavaro Beach,
+Columbia,Medellin,Plaza Botero and the Museum of Antioquia,
+Brazil,Sao Paulo,Museu de Arte,
+Brazil,Rio de Janeiro,Christ the Redeemer,
+Singapore,Singapore,Marina Bay Sands,
+South Korea,Seoul,Banpo Bridge,
+France,Paris,Eiffel Tower,
+France,Marseille,Basilique Notre-Dame de la Garde,
+UK,London,Big Ben,
+Netherlands,Amsterdam,The Anne Frank Museum,
+Australia,Sydney,Sydney Opera House,
+Argentina,Buenos Aires,Plaza de Mayo and Casa Rosada,
+Peru,Cusco,Machu Picchu,
+Kenya,Nairobi,Nairobi National Park,
+South Africa,Cape Town,
+Tunisia,Tunis,Baths of Antoninus,
+Egypt,Cairo,Pyramids of Giza,
+Mexico,Mexico City,Zócalo,
+Canada,Montreal,Botanical Garden,
+US,NYC,Times Square,
+US,Honolulu,Pearl Harbor,
+Taiwan,Taipei,National Memorial Hall,
+China,Xi'an,Mausoleum of the First Qin Emperor,
+China,Beijing,The Forbidden City,
+China,Hong Kong,Victoria Peak,
+India,Calcutta,Dakshineswar Kali Temple,
+Thailand,Bangkok,The Grand Palace,
+Germany,Cologne,Cologne Cathedral,
+Russia,St. Petersburg,Peter and Paul Fortress,
+Turkey,Istanbul,The Grand Bazaar,
