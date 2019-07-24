@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class LocationsController < ApplicationController
+class LocationsController < ProtectedController
   before_action :set_location, only: %i[show update destroy]
 
   # GET /locations
@@ -12,15 +12,15 @@ class LocationsController < ApplicationController
 
   # GET /locations/1
   def show
-    render json: @location
+    render json: Location.find(params[:id])
   end
 
   # POST /locations
   def create
-    @location = Location.new(location_params)
+    @location = current_user.locations.build(location_params)
 
     if @location.save
-      render json: @location, status: :created, location: @location
+      render json: @location, status: :created
     else
       render json: @location.errors, status: :unprocessable_entity
     end
@@ -38,13 +38,15 @@ class LocationsController < ApplicationController
   # DELETE /locations/1
   def destroy
     @location.destroy
+
+    head :no_content
   end
 
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_location
-    @location = Location.find(params[:id])
+    @location = current_user.locations.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
